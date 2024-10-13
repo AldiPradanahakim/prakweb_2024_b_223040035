@@ -68,6 +68,6 @@ $produk1 = new Komik("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100, 0
 $produk2 = new Game("Uncharted", "Neil Druckmann", "Sony Computer", 250000, 0, 50,);
 
 
-echo $produk1->getInfoProduk();
+echo $produk1->getInfoLengkap();
 echo "<br>";
-echo $produk2->getInfoProduk();
+echo $produk2->getInfoLengkap();
